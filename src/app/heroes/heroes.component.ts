@@ -8,7 +8,7 @@ import { HEROES } from '../mock-heroes';
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
-  
+  // something happened somehow somewhere
   heroes = HEROES;
   selectedHero?: Hero;
   onSelect(hero: Hero): void {
